@@ -9,7 +9,7 @@ public class Hello {
 
     @RequestMapping("/hello")
     public String  hello(@RequestParam String name){
-        return "hello "+name+"，this is first messge";
+        return "hello "+name+"，this is first messge,peer2";
     }
 
 }
